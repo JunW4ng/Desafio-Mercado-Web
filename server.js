@@ -4,12 +4,12 @@ const { engine } = require("express-handlebars");
 const port = 3000;
 
 const productosTipos = [
-  "Banana",
-  "Cebollas",
-  "Pimenton",
-  "Papas",
-  "Lechuga",
-  "Tomate",
+  "banana",
+  "cebollas",
+  "pimenton",
+  "papas",
+  "lechuga",
+  "tomate",
 ];
 
 //? Configuracion handlebars

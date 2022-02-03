@@ -12,5 +12,4 @@ cart.addEventListener("click", () => {
   cartProducts.forEach((producto) => {
     modal.innerHTML += `<img src="/img/${producto}.png" class="card-img-top" alt="${producto}"/>`;
   });
-  console.log(cartProducts); //! BORRAR
 });
